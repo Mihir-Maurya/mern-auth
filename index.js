@@ -45,7 +45,7 @@ function authenticateToken(req, res, next) {
 
 
 app.get("/", (req, res) => {
-  res.json({message:"api is working"});
+  res.json({message:"api is working and redeploy"});
 });
 
 
